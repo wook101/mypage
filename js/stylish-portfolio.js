@@ -2,11 +2,11 @@
   "use strict"; // Start of use strict
     
     //프로젝트 클릭했을때
-    $(".project1").click(function(){ $(this).attr('href','http://ehddnr1022.cafe24.com/ReservationService').attr('target','_blank');
-        
-   });
-    $(".project2").click(function(){                                              
-    $(this).attr('href','http://ehddnr1022.cafe24.com/FreeBoard').attr('target','_blank');
+    $(".project1").click(function(){//게시판 
+      window.open('http://3.36.62.73:8080','_blank');  
+    });
+    $(".project2").click(function(){//뮤직플레이어
+      window.open('https://playmusicbox.herokuapp.com','_blank');                                              
     });
     
     
