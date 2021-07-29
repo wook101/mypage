@@ -9,9 +9,6 @@
       window.open('https://playmusicbox.herokuapp.com','_blank');                                              
     });
     
-    
-    
-    
   // Closes the sidebar menu
   $(".menu-toggle").click(function(e) {
     e.preventDefault();
@@ -59,3 +56,12 @@
 
 })(jQuery); // End of use strict
 
+
+window.onload = function(){
+    document.querySelector('.menu-toggle').removeAttribute('switch-adjust-element-width');
+    document.querySelector('#sidebar-wrapper').removeAttribute('switch-adjust-element-width');
+}
+
+document.querySelector('.menu-toggle').removeAttribute('switch-adjust-element-width');
+document.querySelector('#sidebar-wrapper').removeAttribute('switch-adjust-element-width');
+    

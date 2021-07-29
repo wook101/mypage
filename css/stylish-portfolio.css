@@ -225,6 +225,7 @@ h6 {
   background: #4a0289;
   cursor: pointer;
 }
+
 .menu-toggle {
   position: fixed;
   right: 15px;
@@ -245,6 +246,7 @@ h6 {
 .menu-toggle:hover {
   background: #4a0289;
 }
+
 
 .service-icon {
   background-color: #fff;
@@ -276,15 +278,7 @@ h6 {
 #portfolio{
     background:#bdbdbd6b;
 }
-#portfolio h2{
-    
-}
-#portfolio .col-lg-6{
-  
-}
-.img_area{
-   
-}
+
 
 .no-gutters{
   margin-bottom: 30px;
