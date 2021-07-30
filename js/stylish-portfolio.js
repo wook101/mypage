@@ -8,6 +8,9 @@
     $(".project2").click(function(){//뮤직플레이어
       window.open('https://playmusicbox.herokuapp.com','_blank');                                              
     });
+    $(".project3").click(function(){//뮤직플레이어
+      window.open('https://cafemean.herokuapp.com','_blank');                                              
+    });
     
   // Closes the sidebar menu
   $(".menu-toggle").click(function(e) {
