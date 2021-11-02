@@ -3,7 +3,7 @@
     
     //프로젝트 클릭했을때
     $(".project1").click(function(){//게시판 
-      window.open('http://52.78.33.224:8080/board','_blank');  
+      window.open('http://15.164.98.244:8080/board','_blank');  
     });
     $(".project2").click(function(){//뮤직플레이어
       window.open('https://playmusicbox.herokuapp.com','_blank');                                              
