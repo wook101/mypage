@@ -168,7 +168,9 @@
                     <h3>내 주위에 Cafe정보를 제공하는 서비스</h3>
                     <p>사용기술 : Javascript, MongoDB, Express, Node.js, naver cloud platform, Heroku</p>
                     <p>
-                        간단소개 :  ● 구조는 MVC패턴입니다.<br>
+                        간단소개 : ● 프로젝트의 restApi는 /app_server와 /app_api로 분리되어 있습니다. 
+                        ● app_server - (router, contorller, view)<br>
+                        ● app_api - (router, contorller, model)<br>
                         ● 사용자의 현재위치정보를 받아서 주위에 있는 카페들의 정보들을 보여줍니다.<br>
                         ● 카페 위치를 지도로 보여주기 위해 NaverCloudPlatform서비스의 WebDynamicMap을 사용했습니다.<br>
                         ● 카페 방문자들의 리뷰를 보여주며, 리뷰등록이 가능합니다. <br>
@@ -201,11 +203,11 @@
                     <p>사용기술 : Java, SpringMVC, mysql, awsEC2</p>
                     <p>
                       간단소개 : ● 웹 게시판은 SpringMVC 패턴입니다.<br>
-                      ● 해당 mvc패턴에 맞추어 dao, service, controller레이어 구조입니다.<br>
+                      ● 프로젝트 패키지들은 dao, service, controller레이어 구조입니다.<br>
                       ● 기본적인 기능들은 게시글의 생성, 조회, 수정, 삭제, 페이징 입니다.<br>
                       ● 추가적인 기능들은 이미지 업로드, 회원가입, 로그인, 유효성검사 입니다.<br>
                       ● 반응형 웹으로 시도했습니다.<br>
-                      ● awsEC2서버에 tomcat, jdk, mysql를 설치 후 웹 어플리케이션을 배포했습니다.<br> 
+                      ● awsEC2서버에 tomcat, jre, mysql를 설치 후 웹 어플리케이션(.WAR)을 배포했습니다.<br> 
                     </p>
                     <p>프로젝트 배포상태(stop) : <a style="font-weight: bold" href="http://15.164.98.244:8080/board" target="_blank">http://52.78.33.224:8080/board</a></p>
                     <p>github : <a style="font-weight: bold" href="https://github.com/wook101/board" target="_blank">소스코드</a></p>
