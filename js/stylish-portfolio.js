@@ -14,6 +14,9 @@
     $(".project4").click(function () {//카페24
         window.open('https://www.digitaltoday.co.kr/news/articleView.html?idxno=454299', '_blank');
     });
+    $(".project5").click(function () {//파스토
+        window.open('https://www.fassto.ai/', '_blank');
+    });
 
     // Closes the sidebar menu
     $(".menu-toggle").click(function (e) {
